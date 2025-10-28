@@ -61,3 +61,10 @@ button {
     padding: 5px;
     text-align: justify;
 }
+
+.off, .off:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    cursor: auto;
+}

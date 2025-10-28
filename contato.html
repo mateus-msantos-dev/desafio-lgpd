@@ -53,14 +53,14 @@
                     ">Termos e Condições</a></p>
                 </div>
                 <div class="lgpd">
-                    <input type="checkbox" name="" id="caixa1">
+                    <input type="checkbox" name="" id="caixa1" onchange="desabilitarBotao(this)">
                     <label for="caixa1">Sim, li e concordo com vossos termos.</label>
                 </div>
                 <div class="lgpd">
                     <input type="checkbox" name="" id="caixa2">
                     <label for="caixa2">Sim, também quero receber descontos e novidades.</label>
                 </div>
-            <button type="submit">Enviar</button>
+            <button type="submit" disabled id="btn-lgpd" class="off">Enviar</button>
             </form>
             </div>
         </div>

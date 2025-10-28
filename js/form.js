@@ -26,3 +26,14 @@ function Post(form) {
     alert(`Obrigado ${data.nome} ${data.sobrenome}, os seus dados foram salvos com sucesso`);
     form.reset();
 }
+
+function desabilitarBotao(check){
+    const btnLGPD = document.querySelector("#btn-lgpd")
+    if(check.checked){
+        btnLGPD.disabled = false;
+        btnLGPD.classList.remove("off");
+    }else{
+        btnLGPD.disabled = true;
+        btnLGPD.classList.toggle("off");
+    }
+}
