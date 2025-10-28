@@ -52,3 +52,12 @@ button {
 .titulo {
     margin-left: 8px;
 }
+
+.lgpd{
+    display: block;
+    width: 300px;
+    margin: 8px;
+    font-size: 13px;
+    padding: 5px;
+    text-align: justify;
+}
